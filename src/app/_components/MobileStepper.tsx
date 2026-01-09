@@ -19,11 +19,23 @@ export default function MobileStepper({
 		<div className="lg:hidden shrink-0 bg-surface border-b border-border">
 			{/* App Branding */}
 			<div className="px-4 pt-3 pb-2 border-b border-border">
-				<h1 className="text-base font-semibold text-center">
-					Document Similarity Checker
-				</h1>
+				<div className="flex items-start justify-center gap-1 mb-1">
+					<h1 className="text-base font-semibold">RefCheck</h1>
+					<span className="text-[9px] font-normal text-text-tertiary leading-[0.9] flex flex-col pt-px">
+						<span>by</span>
+						<a
+							href="https://github.com/LostDocument"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="underline decoration-1 underline-offset-1 hover:text-primary hover:decoration-primary hover:underline-offset-2 transition-all duration-300"
+							aria-label="Visit LostDocument on GitHub"
+						>
+							LostDocument
+						</a>
+					</span>
+				</div>
 				<p className="text-xs text-text-secondary text-center font-inter">
-					Privacy-first analysis
+					Check similarity. Protect originality.
 				</p>
 			</div>
 

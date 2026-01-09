@@ -10,11 +10,23 @@ export default function Header() {
 		<header className="clay-card">
 			<div className="flex items-center justify-between gap-4">
 				<div>
-					<h1 className="text-2xl font-semibold mb-1">
-						Document Similarity Checker
-					</h1>
+					<div className="flex items-start gap-2 mb-1">
+						<h1 className="text-2xl font-semibold">RefCheck</h1>
+						<span className="text-xs font-normal text-text-tertiary leading-tight flex flex-col pt-0.5">
+							<span>by</span>
+							<a
+								href="https://github.com/LostDocument"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="underline decoration-1 underline-offset-2 hover:text-primary hover:decoration-primary hover:underline-offset-4 transition-all duration-300"
+								aria-label="Visit LostDocument on GitHub"
+							>
+								LostDocument
+							</a>
+						</span>
+					</div>
 					<p className="text-sm text-text-secondary mb-0 font-inter">
-						Privacy-first, client-side text similarity analysis
+						Check similarity. Protect originality.
 					</p>
 				</div>
 
